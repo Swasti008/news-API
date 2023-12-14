@@ -1,7 +1,7 @@
 // Progression 1: create a function and fetch the api using axios
 
 function getData() {
-    axios.get("https://gnews.io/api/v4/search?q=example&lang=en&country=us&max=10&apikey=9ab08152dfcbdddb18de69cb4b9aca69")
+    axios.get("https://gnews.io/api/v4/search?q=example&lang=en&country=us&max=10&apikey=c5d9f19aaff5233730b232c6a38ee10a")
         .then(function (response) {
             let data = response.data.articles;
             console.log(data);
