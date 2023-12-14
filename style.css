@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+
+#topbar {
+  background-color: beige;
+  height: 4vw;
+  padding-top: 2vw;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5vw;
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#news {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25vw, 1fr));
+  gap: 4vw;
+  margin: 4vw;
+}
+
+.eachNews {
+  background-color: #fff;
+  box-shadow: 0 0 1.5vw rgba(27, 26, 26, 0.441);
+  padding: 4vw;
+  transition: box-shadow 0.3s ease;
+}
+
+.eachNews:hover {
+  box-shadow: 0 0 1.5vw rgb(235, 179, 95);
+}
+
+.eachNews:first-child {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.news {
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+h3 {
+  color: #333;
+}
+
+p {
+  color: #666;
+}
+
+span {
+  color: #999;
+  font-size: 0.9em;
+  display: block;
+  margin-top: 5px;
+}
+
+.signup-form {
+  margin-top: 4vw;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 50vw;
+  text-align: center;
+}
+
+.signup-form h2 {
+  color: #333;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signup-form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #45a049;
+}
+
+#sign {
+  text-align: center;
+}
