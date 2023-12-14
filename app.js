@@ -18,7 +18,7 @@ function stored(data) {
         let eachPersonDiv = document.createElement('div');
         eachPersonDiv.classList = 'eachNews';
 
-        function createAndAppend(tag, text) {git 
+        function createAndAppend(tag, text) {
             let tagName = document.createElement(tag);
             tagName.setAttribute('class', 'news');
             if (tag === 'img') {
